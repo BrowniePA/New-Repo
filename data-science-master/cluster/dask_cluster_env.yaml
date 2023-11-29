@@ -1,0 +1,14 @@
+name: dask_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask=2022.7.0
+  - dask-core=2022.7.0
+  - distributed=2022.7.0
+  - nomkl
+  - s3fs
+  - numpy
+  - pandas 
+  - python-blosc
+prefix: /home/debian/miniconda/envs/dask_env
